@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== site title ===== -->
+        <title>Kamrul | Web Developer</title>
+
+        <!-- ===== favicon ===== -->
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+        <!-- ===== cdn links ===== -->
+
+        <!-- font-awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- 
+            ==================================================
+                                CSS here
+            ==================================================
+            -->
+        <link rel="stylesheet" href="css/fontawesomeall.min.css">
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="css/lity.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body onload="loadFunction()" style="margin:0;">
+
+        <div id="loader-container">
+            <div class="loadingio-spinner-ripple-shx55uk2vph">
+                <div class="ldio-ru1b8dj3q8">
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+        <!--Scroll to top-->
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+        <!--
+            ==================================================
+                                Header Starts
+            ==================================================
+            -->
+        <header>
+            <div class="container">
+                    <div class="header__content id="navbar"">
+                        <div class="logo">
+                            <a href="index.html">Kam<span>R</span>ul</a>
+                        </div>
+                        <div class="menu-btn" onclick="myFunction(this)">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#about">About Me</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#resume">Resume</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#pricing">Pricing</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                            <span class="close">
+                            <i class="far fa-window-close"></i>
+                            </span>
+                        </nav>
+                    </div>
+                </div>
+        </header>
+        <!--
+            ==================================================
+                                Header Ends
+            ==================================================
+            -->
+        <main>
+            <!--
+                ==================================================
+                                    Banner Starts
+                ==================================================
+                -->
+            <section class="banner">
+                <div class="container">
+                    <div class="banner_content">
+                        <div class="banner_text">
+                            <h3>
+                                Hello,I'm <span>Kamrul Hasan</span>
+                            </h3>
+                            <h1> 
+                               Front-End Web Developer
+                            </h1>
+                            <p id="typewriter">
+                               
+                            </p>
+                            <div class="buttons">
+                                <div class="hire__modal">
+                                    <a href="javascript:void(0)" class="trigger btn1">HIRE ME</a>
+                                    <div class="modal">
+                                        <div class="modal-content">
+                                            <span class="close-button">&times;</span>
+                                            <div class="vh-center">
+                                                <div class="modal-body">
+                                                    <a href="#" target="_blank">
+                                                    <img alt="upwork" src="images/upwork.svg" />
+                                                    </a>
+                                                    <a href="#" target="_blank">
+                                                    <img alt="fiverr" src="images/fiverr.svg" />
+                                                    </a>
+                                                    <a href="#" target="_blank" class="linkedin">
+                                                    Linked<span><i class="fab fa-linkedin-in"></i></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#portfolio" class="btn2">VIEW WORKS</a>
+                            </div>
+                        </div>
+                        <div class="banner_image">
+                            <img src="images/MyPhoto.png" alt="MyImage">
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-shape-divider-bottom-1629523707">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                    </svg>
+                </div>
+            </section>
+            <!--
+                ==================================================
+                                    Banner Ends
+                ==================================================
+                -->
+            <!--
+                ==================================================
+                                    About Starts
+                ==================================================
+                -->
+            <section id="about" class="about">
+                <div class="container">
+                    <div class="section_title">
+                        <h2>About Me</h2>
+                        <p>Why Choose Me</p>
+                        <span></span>
+                    </div>
+                    <div class="about__content">
+                        <div class="about__image">
+                            <img src="images/about.jpg" alt="My Photo">
+                        </div>
+                        <div class="about__text">
+                            <p>
+                                <span>I</span> am a highly abitious creative Web Designer and Developer from Bangladesh.I particularly focus on writing clean code,making pixel perfect design and user-friendly experience.
+                                I'm highly passionate and dedicated to my work. 
+                            </p>
+                            <div class="about_features">
+                                <h3>Why Choose Me?</h3>
+                                <p><span></span>W3C Validated Markup</p>
+                                <p><span></span>SEO Friendly Code</p>
+                                <p><span></span>Cross Browser Compatible</p>
+                                <p><span></span>Proper Use of HTML Semantic Tags</p>
+                                <p><span></span>Pixel Perfect Design</p>
+                                <p><span></span>Responsive across all devices</p>
+                            </div>
+                            <div class="buttons">
+                                <a href="#contact" class="btn1">CONTACT ME</a>
+                                <a href="#resume" class="btn2">GET RESUME</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--
+                ==================================================
+                                    About Ends
+                ==================================================
+                -->
+            <!--
+                ==================================================
+                                    Resume starts
+                ==================================================
+                -->
+            <section id="resume" class="resume">
+                <div class="custom-shape-divider-top-1629538322">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                    </svg>
+                </div>
+                <div class="container">
+                    <div class="section_title">
+                        <h2>Resume</h2>
+                        <p>My Formal Bio Details</p>
+                        <span></span>
+                    </div>
+                    <div class="resume__content">
+                        <div class="tab">
+                            <button class="tablinks" onclick="openSection(event, 'education')"><span><i class="fas fa-user-graduate" id="defaultOpen"></i></span>Education</button>
+                            <button class="tablinks" onclick="openSection(event, 'skill')"><span><i class="fas fa-laptop-code"></i></span>My Skills</button>
+                            <button class="tablinks" onclick="openSection(event, 'history')"><span><i class="fas fa-history"></i></span>Work History</button>
+                            <button class="tablinks" onclick="openSection(event, 'hobby')"><span><i class="fas fa-award"></i></span>Hobbies</button>
+                        </div>
+                        <div id="education" class="tabcontent">
+                            <div class="edu_items">
+                                <div class="edu-item">
+                                    <div class="school">
+                                        <h3><span></span>University of Dhaka</h3>
+                                        <p>2017-Present</p>
+                                    </div>
+                                    <h4>B.S in Applied Mathematics</h4>
+                                    <p>
+                                        I have started my Undergrad academic journey in University of Dhaka in 2017.It is the heighst echelon of education and one the most prestigious universities in Bangladesh.I am currently studying Applied mathematics in this university.
+                                    </p>
+                                </div>
+                                <div class="edu-item">
+                                    <div class="school">
+                                        <h3><span></span>Govt. Kabi Nazrul College</h3>
+                                        <p>2015-2017</p>
+                                    </div>
+                                    <h4>Higher Secondary Certificate</h4>
+                                    <p>
+                                        After SSC I admitted this college.I studied here for two years.I passed Higher Secondary Sertificate exam with excellent result held in 2017.I got GPA-4.83 out of 5.
+                                    </p>
+                                </div>
+                                <div class="edu-item">
+                                    <div class="school">
+                                        <h3><span></span>Ratanpur Abdullah High School</h3>
+                                        <p>2013-2015</p>
+                                    </div>
+                                    <h4>Secondary School Certificate</h4>
+                                    <p>
+                                        My very first academic journey started from here.I have secured an excellent result in the SSC exam.I got GPA-5 out of 5 in Secondary School Certificate exam.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="skill" class="tabcontent">
+                            <div class="skill-bars">
+                                <div class="bar">
+                                    <div class="info">
+                                        <span>HTML & CSS</span>
+                                    </div>
+                                    <div class="progress-line html-css">
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="bar">
+                                    <div class="info">
+                                        <span>SASS</span>
+                                    </div>
+                                    <div class="progress-line sass">
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="bar">
+                                    <div class="info">
+                                        <span>Tailwind CSS</span>
+                                    </div>
+                                    <div class="progress-line tailwind">
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="bar">
+                                    <div class="info">
+                                        <span>Bootstrap</span>
+                                    </div>
+                                    <div class="progress-line bootstrap">
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="bar">
+                                    <div class="info">
+                                        <span>jQuery</span>
+                                    </div>
+                                    <div class="progress-line jquery">
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="bar">
+                                    <div class="info">
+                                        <span>JavaScript</span>
+                                    </div>
+                                    <div class="progress-line javascript">
+                                        <span></span>
+                                    </div>
+                                </div>
+                                <div class="bar">
+                                    <div class="info">
+                                        <span>Wordpress</span>
+                                    </div>
+                                    <div class="progress-line wordpress">
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="history" class="tabcontent">
+                        </div>
+                        <div id="hobby" class="tabcontent">
+                            <div class="hobby_items">
+                                <h4><span><i class="fas fa-passport"></i></span>Travelling</h4>
+                                <h4><span><i class="fab fa-connectdevelop"></i></span>Competitive Programming</h4>
+                                <h4><span><i class="fas fa-camera"></i></span>Photography</h4>
+                                <h4><span><i class="fas fa-chess-queen"></i></span>Playing Chess</h4>
+                                <h4><span><i class="fas fa-music"></i></span>Singing</h4>
+                                <h4><span><i class="fas fa-hands-helping"></i></span>Volunteering</h4>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <div class="custom-shape-divider-bottom-1629538415">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                    </svg>
+                </div>
+            </section>
+            <!--
+                ==================================================
+                                    Resume Ends
+                ==================================================
+                -->
+            <!--
+                ==================================================
+                                    Services Starts
+                ==================================================
+                -->
+            <section id="services" class="services">
+                <div class="container">
+                    <div class="section_title">
+                        <h2>Services</h2>
+                        <p>I Provide Following Services.</p>
+                        <span></span>
+                    </div>
+                    <div class="services__items">
+                        <!-- <div class="services__item item1">
+                            <span><i class="fas fa-globe"></i></span>
+                            <h4>Web Design</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laudantium, placeat assumenda ab quo debitis.
+                            </p>
+                            </div> -->
+                        <div class="services__item item2">
+                            <span><i class="fas fa-laptop-code"></i></span>
+                            <h4>Web Development</h4>
+                            <p>
+                                I can deisgn & modify any kind of websites according to client's requirments.My coding is W3C validated,cross browser compatible & SEO friendly.I ensure faster page loading & best user experience.I use appropriate HTML semanntic tags to make it more standard.
+                            </p>
+                            <div class="custom-shape-divider-bottom-1629735304">
+                                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="services__item item4">
+                            <span><i class="fas fa-code"></i></span>
+                            <h4>PSD,XD & Figma to HTML</h4>
+                            <p>
+                                I can convert any kind of PSD,XD,Figma,Sketch,JPG & other formats into HTML with clean coding.I ensure it to be pixel perfect.My design is fully responsive across all kind of devices.
+                            </p>
+                            <div class="custom-shape-divider-bottom-1629735304">
+                                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="services__item item5">
+                            <span><i class="fab fa-wordpress-simple"></i></span>
+                            <h4>Wordpress Customization</h4>
+                            <p>
+                                I am expert in wordpress theme customization.
+                                I can customize,edit & build any kind of wordpress themes with elemntor & other page builders.Faster delivery and quality work is my passion.I try my best to make you happy with my work.
+                            </p>
+                            <div class="custom-shape-divider-bottom-1629735304">
+                                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="services__item item3">
+                            <span><i class="fas fa-tools"></i></span>
+                            <h4>Bug Fixing</h4>
+                            <p>
+                                Website bugs and problems is a common issue.It causes manny errors & bad user experience.Don't worry,I can fix any kind of issues from your websites making it more efficient & reliable.
+                            </p>
+                            <div class="custom-shape-divider-bottom-1629735304">
+                                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                                    <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+                                    <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+                                    <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <!-- <div class="services__item item6">
+                            <span><i class="fas fa-camera"></i></span>
+                            <h4>Photography</h4>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laudantium, placeat assumenda ab quo debitis.
+                            </p>
+                            </div> -->
+                    </div>
+                </div>
+                <div class="custom-shape-divider-bottom-1629538415">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                    </svg>
+                </div>
+            </section>
+            <!--
+                ==================================================
+                                    Services Ends
+                ==================================================
+                -->
+            <!--
+                ==================================================
+                                    Portfolio Starts
+                ==================================================
+                -->
+            <section id="portfolio" class="portfolio">
+                <div class="container">
+                    <div class="section_title">
+                        <h2>Portfolio</h2>
+                        <p>Check out my Recent Works</p>
+                        <span></span>
+                    </div>
+                    <div class="portfolio__items">
+                        <div class="portfolio__item">
+                            <a href="images/portfolio1_full.jpeg" data-lity><img src="images/portfolio1.jpg" alt="Portfolio Image"></a>
+                            <div class="work_title">
+                                <h3>PSD to HTML<span></span></h3>
+                                <a href="https://rabby17.github.io/monu/" target="_blank"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="portfolio__item">
+                            <a href="images/portfolio2_full.jpeg" data-lity><img src="images/portfolio2.png" alt="Portfolio Image"></a>
+                            <div class="work_title">
+                                <h3>PSD to HTML<span></span></h3>
+                                <a href="https://rabby17.github.io/garden/" target="_blank"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="portfolio__item">
+                            <a href="images/portfolio3_full.jpeg" data-lity><img src="images/portfolio3.png" alt="Portfolio Image"></a>
+                            <div class="work_title">
+                                <h3>PSD to HTML<span></span></h3>
+                                <a href="https://rabby17.github.io/paxiar/" target="_blank"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="portfolio__item">
+                            <a href="images/portfolio4_full.jpeg" data-lity><img src="images/portfolio4.png" alt="Portfolio Image"></a>
+                            <div class="work_title">
+                                <h3>PSD to HTML<span></span></h3>
+                                <a href="https://rabby17.github.io/picchi/" target="_blank"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="portfolio__item">
+                            <a href="images/portfolio5_full.jpeg" data-lity><img src="images/portfolio5.jpg" alt="Portfolio Image"></a>
+                            <div class="work_title">
+                                <h3>PSD to HTML<span></span></h3>
+                                <a href="https://rabby17.github.io/alex_portfolio/" target="_blank"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="portfolio__item">
+                            <a href="images/portfolio6_full.jpeg"  data-lity><img src="images/portfolio6.png" alt="Portfolio Image"></a>
+                            <div class="work_title">
+                                <h3>PSD to HTML<span></span></h3>
+                                <a href="javascript:void(0)"><i class="fas fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="custom-shape-divider-bottom-1629538415">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                    </svg>
+                </div>
+            </section>
+            <!--
+                ==================================================
+                                    Portfolio Ends
+                ==================================================
+                -->
+            <!--
+                ==================================================
+                                    Testimonial Starts
+                ==================================================
+                -->
+            <section id="#testimonial" class="testimonial">
+                <div class="container">
+                    <div class="section_title">
+                        <h2>Testimonial</h2>
+                        <p>My Happy Clients</p>
+                        <span></span>
+                    </div>
+                    <div class="swiper-container mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testimonial__item">
+                                    <span><i class="fas fa-quote-left"></i></span>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum ut eius quod. Dignissimos eaque molestiae voluptate maxime assumenda distinctio.
+                                    </p>
+                                    <div class="client">
+                                        <img src="images/client-1.png" alt="Client Image">
+                                        <div class="client_bio">
+                                            <h4>Robert Doe</h4>
+                                            <h5>Co-Founder</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial__item">
+                                    <span><i class="fas fa-quote-left"></i></span>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum ut eius quod. Dignissimos eaque molestiae voluptate maxime assumenda distinctio.
+                                    </p>
+                                    <div class="client">
+                                        <img src="images/client-2.png" alt="Client Image">
+                                        <div class="client_bio">
+                                            <h4>Robert Doe</h4>
+                                            <h5>Co-Founder</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial__item">
+                                    <span><i class="fas fa-quote-left"></i></span>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum ut eius quod. Dignissimos eaque molestiae voluptate maxime assumenda distinctio.
+                                    </p>
+                                    <div class="client">
+                                        <img src="images/client-3.png" alt="Client Image">
+                                        <div class="client_bio">
+                                            <h4>Robert Doe</h4>
+                                            <h5>Co-Founder</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial__item">
+                                    <span><i class="fas fa-quote-left"></i></span>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum ut eius quod. Dignissimos eaque molestiae voluptate maxime assumenda distinctio.
+                                    </p>
+                                    <div class="client">
+                                        <img src="images/client-1.png" alt="Client Image">
+                                        <div class="client_bio">
+                                            <h4>Robert Doe</h4>
+                                            <h5>Co-Founder</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial__item">
+                                    <span><i class="fas fa-quote-left"></i></span>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum ut eius quod. Dignissimos eaque molestiae voluptate maxime assumenda distinctio.
+                                    </p>
+                                    <div class="client">
+                                        <img src="images/client-2.png" alt="Client Image">
+                                        <div class="client_bio">
+                                            <h4>Robert Doe</h4>
+                                            <h5>Co-Founder</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="slider__button">
+                        <button class="swiper-prev" type="button">
+                        <span><i class="fas fa-arrow-left"></i></span>
+                        </button>
+                        <button class="swiper-next" type="button">
+                        <span><i class="fas fa-arrow-right"></i></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="custom-shape-divider-bottom-1629538415">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                    </svg>
+                </div>
+            </section>
+            <!--
+                ==================================================
+                                    Testimonial Ends
+                ==================================================
+                -->
+            <!--
+                ==================================================
+                                    Pricing Starts
+                ==================================================
+                -->
+            <section id="pricing" class="pricing">
+                <div class="container">
+                    <div class="section_title">
+                        <h2>Pricing</h2>
+                        <p>Check out Service Packages</p>
+                        <span></span>
+                    </div>
+                    <div class="pricing__items">
+                        <div class="pricing__item item1">
+                            <div class="price_section">
+                                <h3>Basic</h3>
+                                <h4><sup>$</sup><span class="counter">40</span></h4>
+                                <p>PSD/XD/Figma/Sketch/Image</p>
+                            </div>
+                            <ul>
+                                <li><span></span>Single Page</li>
+                                <li><span></span>Responsive Deisgn</li>
+                                <li><span></span>Content Upload</li>
+                                <li>Design Customization</li>
+                                <li><span></span>Cross Browser Compatible</li>
+                                <li>Include Source Code</li>
+                                <li><span></span>3 Revisions</li>
+                            </ul>
+                            <a href="javascript:void(0)">Choose Plan</a>
+                        </div>
+                        <div class="pricing__item item2">
+                            <div class="price_section">
+                                <h3>Standard</h3>
+                                <h4><sup>$</sup><span class="counter">110</span></h4>
+                                <p>PSD/XD/Figma/Sketch/Image</p>
+                            </div>
+                            <ul>
+                                <li><span></span>Three Pages</li>
+                                <li><span></span>Responsive Deisgn</li>
+                                <li><span></span>Content Upload</li>
+                                <li>Design Customization</li>
+                                <li><span></span>Cross Browser Compatible</li>
+                                <li>Include Source Code</li>
+                                <li><span></span>Unlimited Revisions</li>
+                            </ul>
+                            <a href="javascript:void(0)">Choose Plan</a>
+                        </div>
+                        <div class="pricing__item item3">
+                            <div class="price_section">
+                                <h3>Premium</h3>
+                                <h4><sup>$</sup><span class="counter">180</span></h4>
+                                <p>PSD/XD/Figma/Sketch/Image</p>
+                            </div>
+                            <ul>
+                                <li><span></span>Five Pages</li>
+                                <li><span></span>Responsive Deisgn</li>
+                                <li><span></span>Content Upload</li>
+                                <li>Design Customization</li>
+                                <li><span></span>Cross Browser Compatible</li>
+                                <li>Include Source Code</li>
+                                <li><span></span>Unlimited Revisions</li>
+                            </ul>
+                            <a href="javascript:void(0)">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="custom-shape-divider-bottom-1629538415">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                    </svg>
+                </div> -->
+            </section>
+            <!--
+                ==================================================
+                                    Pricing Ends
+                ==================================================
+                -->
+            <!--
+                ==================================================
+                                    Contact Starts
+                ==================================================
+                -->
+            <section id="contact" class="contact">
+                <div class="section_title">
+                    <h2>Get in Touch</h2>
+                    <p>Lets start the success story</p>
+                    <span></span>
+                </div>
+                <div class="container">
+                    <div class="contact__content">
+                        <div class="contact__way">
+                            <div class="item item1">
+                                <span><i class="fas fa-map-marker-alt"></i></span>
+                                <h4>Address</h4>
+                                <p>Dhaka,Bangladesh</p>
+                            </div>
+                            <div class="item item2">
+                                <span><i class="far fa-envelope"></i></span>
+                                <h4>Email</h4>
+                                <a href="mailto:khrabby99@gmail.com">khrabby99@gmail.com</a>
+                            </div>
+                            <div class="item item3">
+                                <span><i class="fab fa-whatsapp"></i></span>
+                                <h4>Whatsapp</h4>
+                                <a href="tel:+8801324217373">+8801324217373</a>
+                            </div>
+                            <div class="item item4">
+                                <span><i class="fab fa-facebook-f"></i></span>
+                                <h4>Facebook</h4>
+                                <a href="https://web.facebook.com/khrabbyJ/">www.facebook.com/khrabbyJ/</a>
+                            </div>
+                        </div>
+                        <div class="contact__form">
+                            <form action="https://formspree.io/f/mqkwwzkw" method="post">
+                                <input type="text" name="Name" placeholder="Name" autocomplete="off"> <br>
+                                <input type="email" name="Email" placeholder="Email" autocomplete="off"> <br>
+                                <!-- <input type="text" name="Number" placeholder="Phone" autocomplete="off"> <br> -->
+                                <textarea name="Message" placeholder="Your Message"></textarea>
+                                <br>
+                                <input type="submit" value="SEND">
+                                <!-- <button type="submit">SEND</button> -->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.639353208292!2d90.39873181481474!3d23.72456968460205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8e506e62513%3A0x936ff7ed095c2ad6!2sShahidullah%20Hall%20Extension-2!5e0!3m2!1sen!2sbd!4v1629657266930!5m2!1sen!2sbd" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div> -->
+            </section>
+            <!--
+                ==================================================
+                                    Contact Ends
+                ==================================================
+                -->
+        </main>
+        <!--
+            ==================================================
+                                Footer Starts
+            ==================================================
+            -->
+        <footer>
+            <div class="container">
+                <div class="footer_content">
+                    <div class="copyright">
+                        <p>&copy;2021 <span>Kamrul</span>.All rights reserved.</p>
+                    </div>
+                    <div class="social_links">
+                        <ul>
+                            <li><a href="https://web.facebook.com/khrabbyJ/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fab fa-telegram-plane"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fab fa-skype"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--
+            ==================================================
+                                Footer Ends
+            ==================================================
+            -->
+        <!-- 
+            ==================================================
+                            JavaScript here
+            ==================================================
+            --> 
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/jquery.typewriter.js"></script>
+        <!-- font-awesome -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+        <script src="js/lity.min.js"></script>
+        <script src="js/swiper-bundle.min.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

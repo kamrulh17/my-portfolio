@@ -1,0 +1,562 @@
+
+/*
+========================================
+        media query for container
+========================================
+*/
+
+@media(min-width:575px){
+    .container{
+        max-width: 540px;
+        margin: 0px auto;
+    }
+}
+
+@media(min-width:768px){
+    .container{
+        max-width: 720px;
+        margin: 0px auto;
+    }
+}
+
+@media(min-width:992px){
+    .container{
+        max-width: 960px;
+        margin: 0px auto;
+    }
+}
+
+@media(min-width:1200px){
+    .container{
+        max-width: 1140px;
+        margin: 0px auto;
+    }
+}
+
+@media(min-width:1400px){
+    .container{
+        max-width: 1320px;
+        margin: 0px auto;
+    }
+}
+
+/*
+========================================
+        css media query
+========================================
+*/
+
+@media(max-width:1399px){
+    h1 {
+        font-size: 48px;
+    }
+    .about__text {
+        padding: 5px 20px;
+    }
+    .banner .banner_content .banner_image img {
+        max-width: 450px;
+    }
+    .resume__content .edu_items {
+        padding: 10px 20px;
+    }
+    .resume__content .edu-item h4 {
+        margin-bottom: 5px;
+    }
+    .resume__content .edu-item h3{
+        margin-bottom: 10px;
+    }
+    .portfolio__item .image {
+        height: 170px;
+    }
+}
+
+@media(max-width:1199px){
+    h1 {
+        font-size: 40px;
+    }
+    .banner .banner_content .banner_image img {
+        max-width: 400px;
+    }
+    .about .buttons .btn1, .about .buttons .btn2 {
+        width: 180px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .banner .buttons {
+        margin-top: 50px;
+    }
+    .about__text {
+        padding: 10px 20px;
+    }
+    .about__text p {
+        margin-bottom: 10px;
+    }
+    .about__text p span {
+        font-size: 20px;
+    }
+    .about__text .about_features h3 {
+        font-size: 22px;
+        margin: 0 0 10px;
+    }
+    .buttons {
+        margin-top: 20px;
+    }
+
+    .buttons .hire-me, .buttons .get-resume {
+        display: inline-block;
+        width: 180px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 30px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        -webkit-transition: .3s all linear;
+        -o-transition: .3s all linear;
+        transition: .3s all linear;
+    }
+}
+
+@media(max-width:991px){
+    header .header__content .menu-btn {
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+        color: #f57f17;
+    }
+    nav{
+        position: fixed;
+        width: 60%;
+        top: 0;
+        right: -60%;
+        background: #fff;
+        height: 100vh;
+        -webkit-transition: .3s all linear;
+        -o-transition: .3s all linear;
+        transition: .3s all linear;
+        z-index: 9999999;
+    }
+    header .header__content nav .close {
+        display: block;
+        color: #f57f17;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-size: 30px;
+    }
+    header .header__content nav ul {
+        display: block;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    header .header__content nav ul li {
+        margin: 5px 0;
+    }
+    .open-nav{
+        right: 0;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+    .banner .banner_content {
+        padding: 50px 0;
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+    }
+    .banner .banner_content > *:nth-child(1) {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+    }
+    .banner .banner_content > *:nth-child(2) {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+    }
+    .banner_text{
+        text-align:center ;
+    }
+    .banner .banner_content .banner_image {
+        text-align: center;
+        -ms-grid-row: 1;
+            grid-row-start: 1;
+    }
+    .banner .banner_content .banner_image img {
+        max-width: 250px;
+        margin-bottom: 10px;
+    }
+    .banner .banner_content .banner_text h3 {
+        font-size: 22px;
+    }
+    .banner .custom-shape-divider-bottom-1629523707 svg {
+        height: 150px;
+    }
+    .banner .buttons {
+        margin-top: 30px;
+    }
+    .buttons {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin-top: 30px;
+    }
+    .about__content {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+    .about__text {
+        padding: 50px 20px;
+    }
+    .about__text .about_features h3 {
+        margin: 10px 0 10px;
+    }
+
+    .about__text p span {
+        font-size: 35px;
+    }
+
+    .resume__content {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+    .resume__content .edu_items {
+        padding: 30px 20px;
+        border-radius: 0px;
+    }
+    .resume__content #skill .skill-bars {
+        padding: 30px 20px;
+        border-radius: 0px;
+    }
+    .resume__content #hobby .hobby_items {
+            padding: 30px 20px;
+        border-radius: 0;
+    }
+    .resume__content .tab {
+        padding: 10px 0;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        background: #36617f;
+    }
+    .resume__content .tab button {
+        color: #fff;
+        padding-right:5px;
+    }
+    .resume__content .tab button.active {
+        color: #36617f;
+        background: #fff;
+    }
+    .resume__content .tab::before {
+        display: none;
+    }
+    .resume__content .tab button::after {
+        display: none;
+    }
+    .resume__content .tab button span {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        margin-right: 5px;                
+    }
+    .resume__content .tab button:first-child {
+        margin-top: 0;
+    }
+    .resume__content .tab button {
+        margin: 0;
+    }
+    .resume__content .tab button:last-child {
+        margin-bottom: 0;
+    }   
+    .services__item {
+        padding: 30px 20px;
+    }       
+    .portfolio__items {
+        -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .pricing__item .price_section {
+        padding: 15px 0;
+    }
+    .pricing__item h4 span {
+        font-size: 35px;
+    }
+    .pricing__item .price_section p{
+            font-size: 12px;
+    }
+    .pricing__item h3 {
+        font-size: 24px;
+    }
+    .pricing__items {
+        grid-column-gap: 10px;
+    }
+    .pricing__item a {
+        height: 45px;
+        width: 160px;
+        line-height: 45px;
+        margin: 20px 0 20px;
+    }
+
+    .contact__content {
+        padding: 0 0 50px;
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+    .contact__way .item {
+        padding: 50px 0;
+    }                
+}
+
+@media(max-width:767px){
+    .banner .modal-content {
+        width: 80%;
+    }
+    .banner .close-button {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 10px;
+        cursor: pointer;
+        font-size: 35px;
+        color: #0abead;
+        line-height: 0;
+    }
+
+    .resume__content .tab button span {
+        display: none;
+    }
+    .resume__content .tab button {
+        padding: 10px 5px;
+    }
+    .services__item {
+        padding: 30px 10px;
+    }
+    .services__item h4 {
+        font-size: 20px;
+    }
+
+    .portfolio__item .work_title h3 span {
+        width: 50px;
+        margin-left: 10px;
+    }
+    .portfolio__item .work_title a {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        font-size: 18px;
+    }
+        
+    .pricing__items {
+        -ms-grid-columns: 1fr 30px 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 0;
+        grid-gap: 30px;
+    }
+    footer .footer_content {
+        display: block;
+        text-align: center;
+    }
+    footer .footer_content .social_links ul {
+            margin-top: 20px;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+}
+
+@media(max-width:574px){
+    header .header__content {
+        margin: 0 20px;
+    }
+    .banner .banner_content .banner_image img {
+        border: 8px solid #f2f2f9;
+    }
+    .portfolio__items {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+    .services__item {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .services__items {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+    .portfolio__item {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .pricing__item {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .contact__way .item {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .contact__way {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+    .contact__way .item {
+        padding: 30px 0;
+    }
+    .contact__form {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:480px){
+    h1 {
+        font-size: 30px;
+    }
+    .banner .banner_content .banner_text h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .banner .banner_content .banner_image img {
+        max-width: 200px;
+    }
+    .banner .banner_content {
+        padding: 80px 0;
+    }
+    .banner .buttons .btn1, .banner .buttons .btn2 {
+        width: 180px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .resume__content .edu-item .school h3 {
+        font-size: 22px;
+    }
+    .resume__content .edu-item h4 {
+        font-size: 20px;
+    }
+    .resume__content .edu-item .school p {
+        display: none;
+    }
+    .services__items {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+    .expertise__items {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+    .portfolio__items {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+    .pricing__items {
+        -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    }
+}
+@media(max-width:440px){
+    .banner .buttons,.about .buttons{
+        display: block;
+        text-align: center;
+    }
+    .banner .banner_content {
+        padding: 50px 0;
+    }
+    .banner .buttons {
+        margin-top: 10px;
+    }
+    .banner .buttons .btn1, .banner .buttons .btn2 {
+        display: block;
+        margin: 10px auto;
+    }
+    .about .buttons .btn1, .about .buttons .btn2 {
+        display: block;
+        margin: 15px auto;
+    }
+}
+
+@media(max-width:400px){
+    .about .modal-body a {
+        height: 50px;
+        width: 130px;
+        line-height: 50px;
+        background: #fff;
+        border: 3px solid white;
+    }
+    .buttons {
+        display: block;
+        text-align: center;
+    }
+    .buttons .btn1, .buttons .btn2 {
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .buttons .btn1, .buttons .btn2 {
+        width: 170px;
+        height: 45px;
+        line-height: 45px;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+@media(max-width:425px){
+    .resume__content .tab button {
+        font-size: 16px;
+    }
+    .banner .banner_content .banner_text h3 {
+        font-size: 18px;
+    }
+    .banner .banner_content .banner_text p {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:380px){
+    .resume__content .edu-item .school h3 {
+        font-size: 20px;
+    }
+    .resume__content .edu_items {
+        padding: 30px 5px;
+    }
+    .resume__content .edu-item .school h3 span {
+        margin-right: 5px;
+    }
+}
+
+@media(max-width:350px){
+    h1{
+        font-size: 27px;
+    }
+    .resume__content .tab button {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:325px){
+    .about_features p{
+        font-size: 15px;
+    }
+}
+@media(max-width:310px){
+    h1{
+        font-size: 24px;
+    }
+}
